@@ -6,7 +6,10 @@
 ## this generates plot1.png, per the assignment
 ##
 ## Assumptions:
-## the file is in the working directory
+## * the data file is in the working directory or the user is connected to the
+##   Internet
+## * the user has installed the "lubridate" package or is connected to the
+##   Internet so the script can install it.
 
 ## ***************************************************************************
 ## downloadUnzip is a function that checks whether the data exists, and 
