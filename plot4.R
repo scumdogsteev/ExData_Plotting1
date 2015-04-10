@@ -10,6 +10,9 @@
 ##   Internet
 ## * the user has installed the "lubridate" package or is connected to the
 ##   Internet so the script can install it.
+## * the background of the plot can be white or transparent since the screen
+##   has a white background (I have left the plot's background white as that
+##   is the default)
 
 ## ***************************************************************************
 ## downloadUnzip is a function that checks whether the data exists, and 
