@@ -79,8 +79,8 @@ data <- read.csv("./data/household_power_consumption.txt", sep=";",
                  na.strings="?")
 
 ## ***************************************************************************
-## using the dmy function from lubridate, replace Date with its date-formatted
-## equivalent
+## using the "dmy" function from lubridate, replace Date with its
+## date-formatted equivalent
 ## ***************************************************************************
 data$Date <- dmy(as.character(data$Date))
 

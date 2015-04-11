@@ -79,13 +79,13 @@ data <- read.csv("./data/household_power_consumption.txt", sep=";",
                  na.strings="?")
 
 ## ***************************************************************************
-## using the dmy function from lubridate, replace Date with its date-formatted
-## equivalent
+## using the "dmy" function from lubridate, replace Date with its
+## date-formatted equivalent
 ## ***************************************************************************
 data$Date <- dmy(as.character(data$Date))
 
 ## ***************************************************************************
-## using the dmy function from lubridate, subset the data frame to the 
+## using the "ymd" function from lubridate, subset the data frame to the 
 ## appropriate dates
 ## ***************************************************************************
 data <- subset(data, data$Date == ymd("2007-02-01") | 
